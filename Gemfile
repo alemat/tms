@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
+#gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -19,6 +20,12 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+#devise installstion
+gem 'devise'
+gem "bcrypt-ruby", :require => "bcrypt"
+#The third instructions is about flash messages, which notifies about successful and failed login attempts. We will use for this a toastr gem.
+gem 'toastr-rails'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
